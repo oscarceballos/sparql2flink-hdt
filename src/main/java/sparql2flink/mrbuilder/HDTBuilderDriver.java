@@ -67,7 +67,6 @@ import sparql2flink.mrbuilder.io.TripleSPOComparator;
 import sparql2flink.mrbuilder.io.TripleSPOWritable;
 import sparql2flink.mrbuilder.triples.TriplesSPOMapper;
 import sparql2flink.mrbuilder.util.FileStatusComparator;
-
 import com.hadoop.mapreduce.LzoTextInputFormat;
 
 public class HDTBuilderDriver {

@@ -1,7 +1,7 @@
 package sparql2flink.listener;
 
 import org.rdfhdt.hdt.listener.ProgressListener;
-import org.rdfhdt.mrbuilder.HDTBuilderConfiguration;
+import sparql2flink.mrbuilder.HDTBuilderConfiguration;
 
 public class HDTBuilderListener implements ProgressListener {
 
@@ -9,10 +9,6 @@ public class HDTBuilderListener implements ProgressListener {
 
 	public HDTBuilderListener(HDTBuilderConfiguration conf) {
 		this.quiet = conf.getQuiet();
-	}
-
-	public HDTBuilderListener(boolean quiet) {
-		this.quiet = quiet;
 	}
 
 	@Override

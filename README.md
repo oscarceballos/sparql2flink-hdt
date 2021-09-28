@@ -31,3 +31,8 @@ Deploy with maven using the configuration in pom_query.xml
 ```
 mvn -f pom_query.xml clean package
 ```
+
+## References
+Fernández, J. D., Gutierrez, C., and Martínez-Prieto, M. A. (2010). Rdf compression: Basic approaches. In Proceedings of the 19th International Conference on World Wide Web, WWW ’10, page 1091?1092, New York, NY, USA. Association for Computing Machinery
+
+Fernández, J. D. (2012). Binary rdf for scalable publishing, exchanging and consumption in the web of data. In Proceedings of the 21st International Conference on World Wide Web, WWW ’12 Companion, page 133?138, New York, NY, USA. Association for Computing Machinery.

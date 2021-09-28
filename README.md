@@ -1,6 +1,7 @@
-# SPARQL2Flink library
+# SPARQL2Flink-HDT library
+RDF compression capabilities have been studied in Fernández et al. [2010]. An overall strategy has been defined as an RDF data-centric format, which reduces verbosity in favor of machine understandability and data management, the so-called RDF HDT format [Fernández, 2012]. HDT is a binary serialization format for RDF, and it is currently a W3C Member Submission (http://www.w3.org/Submission/HDT/). HDT provides effective RDF decomposi- tion, simple compression notions, and basic indexed access in a compact serialization format, providing efficient access to the data.
 
-An approach for transforming a given SPARQL query into an Apache Flink 1.7.2 program for querying massive static RDF data. 
+This repository is an proof of concept which implement an HDT technique in orde to improves the SPARQL2Flink capabilities for querying massive static RDF data. 
 
 ## System requirements
 
